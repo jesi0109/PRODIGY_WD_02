@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.circle {
+    text-align: center;
+    background: skyblue;
+    padding: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.buttons button {
+    padding: 5px 20px;
+    border-radius: 30% ;
+    font-size: 1em;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+#laps li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
